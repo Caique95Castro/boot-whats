@@ -53,4 +53,4 @@ for linha in pagina_clientes.iter_rows(min_row=2):
         with open('erros.csv', 'a', newline='', encoding='utf-8') as arquivo:
             arquivo.write(f'{nome}, {telefone}\n')
 
-#https://web.whatsapp.com/send?phone=&text=
+
